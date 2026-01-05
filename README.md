@@ -1,6 +1,6 @@
 # Todo
-실제 사용자의 Query를 수집하여 서비스 적합한 구조로 수정이 필요함.
-현재 모델은 공부를 목적으로 만든 것이기에 프로젝트에 적합한 모델은 아님.
+- 실제 사용자의 Query를 수집하여 서비스 적합한 구조로 수정이 필요함.
+- 현재 모델은 공부를 목적으로 만든 것이기에 프로젝트에 적합한 모델은 아님.
 
 
 # Query Flow 보고서
@@ -39,8 +39,8 @@ Query Flow는 **LangGraph StateGraph** 기반의 RAG(Retrieval-Augmented Generat
        ▼
 ┌─────────────────────────────────────────────────────────┐
 │                  Query Flow Graph                       │
-│                                                          │
-│  CacheLookup → Plan → Retrieve → Expand → Rerank       │
+│                                                         │
+│  CacheLookup → Plan → Retrieve → Expand → Rerank        │
 │                          ↑          ↓                   │
 │                          └──────  Judge                 │
 │                                     ↓                   │
