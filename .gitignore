@@ -6,6 +6,8 @@ app/
 
 # Data
 chroma_db/
+data/parsed/*.md
+data/store.json
 
 # Python
 __pycache__/
