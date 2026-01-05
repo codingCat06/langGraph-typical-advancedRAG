@@ -1,0 +1,23 @@
+# Core dependencies
+fastapi
+uvicorn[standard]
+requests
+pydantic
+python-multipart
+
+# PDF processing (marker-pdf and its dependencies)
+marker-pdf
+torch
+torchvision
+transformers
+surya-ocr
+accelerate
+
+# Client dependencies
+langchain
+langchain-openai
+langchain-community
+langsmith
+chromadb
+python-dotenv
+streamlit
